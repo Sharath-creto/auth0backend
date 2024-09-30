@@ -1,0 +1,29 @@
+{
+  "name": "auth-project-nodejs-reactbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required for Node.js backend'",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.1.0",
+    "netlify-cli": "^17.33.4",
+    "netlify-lambda": "^2.0.16",
+    "puppeteer": "^23.4.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.13.0"
+  }
+}
